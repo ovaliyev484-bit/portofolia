@@ -411,6 +411,58 @@ a:hover {
   text-align: center;
 }
 
+/* Veb-ilova (PWA) */
+.veb-ilova {
+  background: var(--bg-elevated);
+}
+
+.veb-ilova-lead {
+  max-width: 40rem;
+}
+
+.veb-ilova-lead strong {
+  color: var(--accent);
+}
+
+.veb-ilova-card {
+  max-width: 42rem;
+  padding: 1.75rem 2rem;
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+}
+
+.veb-ilova-actions {
+  margin-bottom: 1rem;
+}
+
+.veb-ilova-hint {
+  margin: 0.75rem 0 0;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.veb-ilova-hint strong {
+  color: var(--text);
+}
+
+.veb-ilova-note {
+  margin: 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+
+.veb-ilova-note code {
+  font-size: 0.8em;
+  padding: 0.15em 0.4em;
+  background: var(--bg);
+  border-radius: 4px;
+  color: var(--accent);
+}
+
 /* Contact */
 .contact-inner {
   display: grid;
